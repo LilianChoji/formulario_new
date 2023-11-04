@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1062f6;
+}
+
+header h1{
+    font-size: 1.30em;
+    margin: 0.50em;
+    width: 15%;
+    color: #ece9f5c5;
+}
+
+nav a{
+    padding: 8px;
+    margin-right: 2em;
+    text-decoration: none;
+    color: #ece9f5c7;
+}
+
+nav a:hover{
+    color: rgba(170, 194, 170, 0.719);
+}
+
+.borda{
+    background-color: #FF7100;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.borda:hover{
+    background-color: #ece9f579;
+    color: #000;
+}
+
+.banner{
+   margin: auto;
+   text-align: center;
+   width: 100vw;
+   height: 100vh;
+}
+
