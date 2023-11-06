@@ -24,6 +24,7 @@ nav a{
     margin-right: 2em;
     text-decoration: none;
     color: #ece9f5c7;
+    transition: .5s ease;
 }
 
 nav a:hover{
@@ -34,18 +35,56 @@ nav a:hover{
     background-color: #FF7100;
     border-radius: 20px;
     text-align: center;
-
+    transition: .5s ease;
 }
 
 .borda:hover{
     background-color: #ece9f579;
     color: #000;
+  
+}
+
+.imagem{
+    width: 100%;
+    height: 10%;
+    filter: opacity(90%);
 }
 
 .banner{
-   margin: auto;
-   text-align: center;
-   width: 100vw;
-   height: 100vh;
+   position: relative;
 }
 
+.formulario{
+    width: 40%;
+    border-radius: 10px;
+    padding: 5em;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-image: url(../imagens/formulario.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.904);
+
+}
+
+label, input{
+    display: block;
+    padding: 5px;
+    color: #fff;
+ 
+  
+}
+
+.botao{
+    width: 48%;
+    margin: 2em 0.10em;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF7100;
+}
+
+.botao:hover{
+    background-color: rgb(219, 212, 206);
+}

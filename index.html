@@ -19,9 +19,26 @@
    </header>
    <main>
      <div class="banner">
-        <img src="imagens/paisagem (2).jpg" alt="paisagem">
+        <img class="imagem" src="imagens/banner (2).jpg" alt="paisagem">
 
+        <div class="formulario">
+         <form action="index.php" method="post">
+            <label for="inome">Nome Completo</label>
+            <input type="text" name="nome" id="inome">
+
+            <label for="ifone">Telefone</label>
+            <input type="number" name="fone" id="ifone">
+
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail">
+
+         </form>
+         <input class="botao" type="submit" value="Enviar">
+      </div>
+      
      </div>
+
+     
    </main>
     
 </body>
